@@ -1,0 +1,15 @@
+/* Estilo para el cuerpo del documento contraste.css*/
+@import "estilo.css";
+
+h1:before {content:"New ";
+	  font-size:10px;
+      color:red;
+}
+
+body {
+	background: #eee url(sombra.gif) repeat-y 50%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 10px;
+	padding: 0;
+}

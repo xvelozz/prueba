@@ -1,0 +1,19 @@
+/* Estilo para el cuerpo del documento print.css*/ 
+@import "estilo2.css";
+
+@media print {
+  body { font-size: 10pt }
+}
+
+@page { margin: 2cm; }
+
+@page :first {
+    margin-top: 5cm;
+}
+
+body {
+	font-family: Arial, Verdana, Helvetica;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
